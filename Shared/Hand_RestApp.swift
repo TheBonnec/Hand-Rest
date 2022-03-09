@@ -12,6 +12,7 @@ struct Hand_RestApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(LockModeViewModel())
         }
     }
 }
